@@ -2,4 +2,4 @@
 
 TAG="latest"
 docker build -t luanngominh/busybox:${TAG} .
-docker push -t luanngominh/busybox:${TAG}
+docker push luanngominh/busybox:${TAG}

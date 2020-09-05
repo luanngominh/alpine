@@ -1,5 +1,5 @@
 FROM yauritux/busybox-curl:latest
 
-RUN wget -O /usr/bin/jq https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
+COPY files/jq /usr/bin/jq
 
 RUN export PATH=$PATH:/usr/bin
